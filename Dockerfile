@@ -1,7 +1,8 @@
 # Uses Busybox as base image
 FROM busybox
 MAINTAINER Albin Gilles "gilles.albin@gmail.com"
-ENV REFRESHED_AT 2016-02-19
+ENV REFRESHED_AT 2016-02-25
+ENV THIS_IS_NOT_MASTER true
 
 # Set the entrypoint
 ENTRYPOINT ["tail"]
